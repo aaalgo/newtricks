@@ -129,7 +129,7 @@ sd_hijack.model_hijack.hijack(sd_model)
 #shared.sd_model = sd_model
 #sd_hijack.model_hijack.embedding_db.load_textual_inversion_embeddings(force_reload=True)
 
-prompts = '<lora:koreanDollLikeness_v15:0.4>, [:(detailed face:1.2):0.2], raw photo, (masterpiece), (best quality), highres, (realistic, photo-realistic:1.2), ultra detailed, physically-based rendering, 1girl,air bangs, sunset, long hair, ((black hair)), wavy hair,  naked'
+prompts = '<lora:koreanDollLikeness_v15:0.4>, [:(detailed face:1.2):0.2], raw photo, (masterpiece), (best quality), highres, (realistic, photo-realistic:1.2), ultra detailed, physically-based rendering, 1girl,air bangs, sunset, long hair, ((black hair)), wavy hair'
 negative_prompts = 'ng_deepnegative_v1_75t, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, glans,horror \(theme\),((wrong feet)),(wrong shoes), bad feet, distorted, blurry, bad hands, missing fingers, multiple feet, bad knees, extra fingers,'
 
 opt_C = 4
