@@ -6,13 +6,9 @@ import torch
 import safetensors
 from omegaconf import OmegaConf
 from PIL import Image, ImageFilter, ImageOps
-#sys.path.append("venv/lib/python3.8/site-packages")
-from modules import processing, prompt_parser, devices, sd_samplers
-#from modules.processing import StableDiffusionProcessingTxt2Img
-#from modules.sd_samplers_kdiffusion import CFGDenoiser
+from modules import prompt_parser, devices
 from modules import shared, sd_hijack
 from modules.shared import opts
-#from modules.script_callbacks import CFGDenoiserParams, cfg_denoiser_callback
 import k_diffusion
 
 class CFGDenoiser(torch.nn.Module):
